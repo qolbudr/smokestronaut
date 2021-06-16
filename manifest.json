@@ -1,0 +1,32 @@
+{
+  "name": "Smokestronaut",
+  "short_name": "Smokestronaut",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "/",
+  "description": "Aplikasi yang diharapkan dapat membantu perokok menghindari rokok.",
+  "background_color": "#4984c9",
+  "theme_color": "#4984c9",
+  "icons": [
+    {
+      "src": "assets/img/icon/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/icon/310x310.png",
+      "sizes": "310x310",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/icon/192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/icon/180x180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

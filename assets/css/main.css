@@ -1,0 +1,486 @@
+:root {
+	--main-bg-color: white;
+	--fill-color: #5767e1;
+	--text-color: #4b555f;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+	overflow-x:hidden;
+	max-width: 100vw;
+	min-height: 100vh;
+}
+
+.content {
+	padding: 20px;
+}
+
+.edit-btn {
+	background-color: rgba(255,255,255,0.4);
+	border-radius: 15px;
+	padding: 4px 10px;
+	font-size: 12px;
+	font-weight: 300;
+	position: absolute;
+	margin-top: 90px;
+	/* top: -10px; */
+	z-index: 1;
+}
+
+.content-2 {
+	border-radius: 0 40px 0 0;
+	padding: 20px;
+	background-color: white;
+	width: 100%;
+	top: 25vh;
+	position: absolute;
+	padding-bottom: 75px
+}
+
+.page-title {
+	padding: 22px 20px;
+	font-size: 20px;
+	font-weight: 400;
+	position: fixed;
+	/* background-color: #528dc9; */
+	top: 0;
+	z-index: 1;
+	background: #457fca;
+	background: -webkit-linear-gradient(to right, #5691c8, #457fca);
+	background: linear-gradient(to right, #5691c8, #457fca);
+	width: 100%;
+	color: white;
+}
+
+.banner {
+	width: 100%;
+	position: fixed;
+	padding: 20px;
+	color:white;
+	font-size: 15px;
+	height: 30vh;
+}
+
+.f-14 {
+	font-size: 14px;
+}
+
+.btn-add {
+	transition: 0.5s ease;
+	opacity: 1;
+	position: fixed;
+    z-index: 2;
+    padding: 6px 15px;
+    color: white;
+    border-radius: 50px;
+    font-size: 14px;
+    right: 15px;
+    top: 87px;
+}
+
+.btns {
+    padding: 8px 15px;
+    color: white;
+    border-radius: 50px;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+}
+
+.btn-cover {
+	position: fixed;
+	bottom: 20px;
+	width: calc(100% - 40px);
+}
+
+.form-control {
+	font-size: 13px;
+}
+
+.btn-kembali {
+	transition: 0.5s ease;
+	opacity: 0;
+	display: none;
+	position: fixed;
+    z-index: 2;
+    padding: 6px 15px;
+    color: white;
+    border-radius: 50px;
+    font-size: 14px;
+    right: 15px;
+    top: 87px;
+}
+
+.header {
+	font-size: 17px;
+	color: var(--text-color);
+	font-weight: 500;
+}
+
+.counter {
+	margin-top: 15px;
+	border-radius: 10px 40px 10px 10px;
+	padding: 15px;
+	color: white;
+}
+
+.counter .title {
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.counter .info {
+	margin-top: 4px;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.info .day,.info .sub-info {
+	font-size: 12px;
+	font-weight: 300;
+}
+
+.shadow {
+	-webkit-box-shadow: 0px 0px 71px 0px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0px 0px 71px 0px rgba(0,0,0,0.15);
+	box-shadow: 0px 0px 71px 0px rgba(0,0,0,0.15);
+}
+
+.box-icon {
+	left: 28px;
+	top: 236px;
+	position: absolute;
+	padding: 5px 10px;
+	color: white;
+	font-size: 14px;
+	border-radius: 5px
+}
+
+.nav-icon span {
+	font-size: 12px;
+}
+
+.hid {
+	display: none;
+}
+
+.box-icons {
+	padding: 10px;
+	width: 40px;
+	text-align: center;
+	color: white;
+	font-size: 14px;
+	border-radius: 5px;
+}
+
+.section-title {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.quotes {
+	border-radius: 5px;
+	padding: 15px 15px 15px 35px;
+	font-size: 12px;
+	margin-left: 20px;
+}
+
+.hasil-assesment,.catatan {
+	border-radius: 5px;
+	padding: 15px 15px 15px 15px;
+	font-size: 12px;
+	/*margin-left: 20px;*/
+}
+
+.catatan {
+	display: flex;
+	justify-content: space-between;
+}
+
+.catatan .info {
+	display: flex;
+}
+
+.catatan .box-icons {
+	width: 48px;
+}
+
+.cards {
+	padding: 15px;
+	border-radius: 5px;
+	font-size: 13px;
+	color: var(--text-color);
+}
+
+.info-number {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.page-wrap {
+	position: relative;
+	display: inline-flex;
+	transition: 0.5s cubic-bezier(0.24, 0.66, 0.25, 1);
+	left:0;
+}
+
+.cover-survey {
+	padding: 20px;
+	text-align: center;
+}
+
+.cover-survey img {
+	width: 60%;
+    margin-top: 50px;
+}
+
+.title-survey {
+	font-weight: 500;
+	font-size: 17px;
+}
+
+.sub-page {
+	width: 100vw;
+}
+
+.page-indicator {
+	width: calc(100% - 40px);
+    display: inline-flex;
+    justify-content: space-around;
+    position: fixed;
+}
+
+.indicator {
+	width: 19%;
+	background-color: #dadada;
+	height: 5px;
+	border-radius: 50px;
+}
+
+.btn-radio {
+	border-radius: 5px;
+	padding: 15px 20px;
+	color: white;
+	font-size: 10px;
+}
+
+.btn-lanjut {
+	position: fixed;
+	bottom: 20px;
+	width: calc(100% - 40px);
+}
+
+.footer {
+	opacity: 1;
+	transition: 0.5s ease;
+	padding: 10px 15px;
+	display: flex;
+	justify-content: space-around;
+	margin: 10px 15px;
+	border-radius: 50px;
+	position: fixed;
+	bottom: 15px;
+	width: calc(100% - 30px);
+	color:white;
+}
+
+.about i {
+	vertical-align: bottom;
+}
+
+.pusat-edukasi .catatan {
+	display: block; justify-content: unset;
+}
+
+.pusat-edukasi .info {
+	justify-content: space-between;
+}
+
+.deskripsi .title {
+	font-weight: 500;
+	font-size: 12px;
+}
+
+.deskripsi .subtitle {
+	font-size: 10px;
+}
+
+.g-blue {
+	background: #457fca;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #5691c8, #457fca);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #5691c8, #457fca); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0px 6px 12px 0px rgba(86,145,200,0.6);
+	-moz-box-shadow: 0px 6px 12px 0px rgba(86,145,200,0.6);
+	box-shadow: 0px 6px 12px 0px rgba(86,145,200,0.6);
+}
+
+.g-red {
+	background: #B24592;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #F15F79, #B24592);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #F15F79, #B24592); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0px 6px 12px 0px rgba(178,69,146,0.6);
+	-moz-box-shadow: 0px 6px 12px 0px rgba(178,69,146,0.6);
+	box-shadow: 0px 6px 12px 0px rgba(178,69,146,0.6);
+}
+
+.g-green {
+	background: #76b852;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #8DC26F, #76b852);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #8DC26F, #76b852); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0px 6px 12px 0px rgba(118,184,82,0.6);
+	-moz-box-shadow: 0px 6px 12px 0px rgba(118,184,82,0.6);
+	box-shadow: 0px 6px 12px 0px rgba(118,184,82,0.6);
+}
+
+.content-all {
+	display: unset;
+}
+
+.frame {
+	position: unset;
+}
+
+.side-about {
+	display: none;
+}
+
+.box {
+	width: 100%;
+	position: relative;
+	background-color: white;
+	z-index: 999;
+	padding: 20px;
+	opacity: 0;
+	transition: 0.5s ease;
+	visibility: hidden;
+	height:100vh;
+}
+
+.tips {
+	margin-top: 28%;
+}
+
+.tips .box-tips {
+	min-height: 200px;
+	min-width: 200px;
+	border-radius: 5px;
+	padding: 10px;
+	text-align: center;
+}
+
+.tips .box-tips div {
+	margin:40px;
+	color:white;
+}
+
+/* Loader */
+.lds-ring {
+	border-radius: 50px;
+	display: inline-block;
+	position: relative;
+	width: 37px;
+	height: 37px;
+	margin: 20vh 45vw;
+	-webkit-box-shadow: 0px 0px 71px 0px rgb(90 61 61 / 0.41);
+    -moz-box-shadow: 0px 0px 71px 0px rgb(90 61 61 / 41%);
+    box-shadow: 0px 0px 71px 0px rgb(90 61 61 / 41%);
+}
+.lds-ring div {
+	box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin: 8px;
+    border: 3px solid #4b85c9;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #4c86ca transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+	animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+	animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+	animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.nav-icon,.edit-btn,.btn-add,.edukasi-1,.edukasi-2,.edukasi-3,.close-btn,.catatan,.btn-kembali,#btn-simpan,.btn-cover,.btn-lanjut,.btn-radio {
+		cursor: pointer;
+	}
+
+	.content-all {
+		display: flex;
+		max-width: 100vw;
+		overflow-x: hidden;
+		/*background-color: blue;*/
+	}
+
+	.wrapper {
+		position: relative;
+	}
+
+	.frame {
+		position: relative;
+		width: 50vw;
+		margin-left: 50vw;
+	}
+
+	.sub-page {
+		width: 50vw;
+	}
+
+	.side-about {
+		display: block;
+		background-color: #5691c8;
+		width: 50vw;
+		z-index: 9999;
+		position: fixed;
+		height: 100vh;
+	}
+
+	.typed-cursor{
+	   opacity: 1;
+	   animation: blink 0.7s infinite;
+	}
+
+	.side-about .greeting {
+		text-align: center;
+		margin-top: 45%;
+		position: relative;
+		color: white;
+		font-weight: 500;
+	}
+
+	.lds-ring {
+		margin: 10vw 24vw;
+	}
+
+	.btn-cover,.page-indicator,.btn-lanjut,.footer {
+		width: calc(100% - 50vw - 40px);
+	}
+
+	.btn-lanjut {
+		position: relative;
+		width: calc(100% - 40px);
+		margin-left: 20px;
+	}
+
+	.footer {
+		left: 50vw;
+	}
+}
